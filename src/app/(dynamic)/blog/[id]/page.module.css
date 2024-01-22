@@ -1,0 +1,54 @@
+.title {
+  font-size: 40px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+.des {
+  font-size: 18px;
+}
+.mainContainer {
+  padding: 20px 25px;
+  border-radius: 15px;
+}
+.imageContainer {
+  position: relative;
+  aspect-ratio: 2.5/1;
+  /* height: 400px; */
+  margin: 25px 0;
+  border: 1px solid #bbb;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.auther {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: var(--firt-color);
+  padding: 5px 10px;
+  color: #111;
+}
+.imagePost {
+  border-radius: 15px;
+  object-fit: cover;
+}
+.gallery {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 20px;
+  justify-content: center;
+  text-align: center;
+  padding: auto;
+}
+.gallery img {
+  width: 15%;
+  aspect-ratio: 1/1;
+  border: 1px solid #bbb;
+  border-radius: 15px;
+}
+.text {
+  font-size: 15px;
+  line-height: 26px;
+  columns: 2;
+  text-align: justify;
+}
